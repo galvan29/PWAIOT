@@ -16,9 +16,9 @@ import fileinput
 from datetime import datetime
 
 from ftplib import FTP
-FTP_HOST = 'ftp.galvan.altervista.org'
-FTP_USER = 'galvan'
-FTP_PASS = 'qjet8suhGx77'
+FTP_HOST = ''  //insert ftp 
+FTP_USER = ''  //insert username
+FTP_PASS = ''  //insert password
 
 ftp = FTP(FTP_HOST, FTP_USER, FTP_PASS, encoding='Latin-1') 
 
